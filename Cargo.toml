@@ -8,7 +8,6 @@ edition = "2021"
 [dependencies]
 csv = "1.1.6"
 serde = { version = "1", features = ["derive"] }
-
 color-eyre = "0.6"
 ndarray = "0.15.6"
 ndarray-csv = "0.5.1"
