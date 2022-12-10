@@ -79,7 +79,7 @@ fn main() {
     let rng = thread_rng(); // Random number generator
     let n_clusters = 5;
     let model = KMeans::params_with_rng(n_clusters, rng)
-    .max_n_iterations(300)
+    .max_n_iterations(100)
     .tolerance(1e-5)
     .fit(&dataset)
     .expect("Error while fitting KMeans to the dataset");
@@ -100,7 +100,7 @@ fn main() {
     .set_label_area_size(LabelAreaPosition::Left, 40) // Put in some margins
     .set_label_area_size(LabelAreaPosition::Right, 40)
     .set_label_area_size(LabelAreaPosition::Bottom, 40)
-    .caption("KMeans Demo", ("sans-serif", 25)) // Set a caption and font
+    .caption("KMeans Clustering of MBTA Stations", ("sans-serif", 25)) // Set a caption and font
     .build_cartesian_2d(x_lim, y_lim)
     .expect("Couldn't build our ChartBuilder");
 
