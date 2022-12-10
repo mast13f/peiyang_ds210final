@@ -90,11 +90,11 @@ fn main() {
 
 
 
-    let root = BitMapBackend::new("kmeans.png", (600, 400)).into_drawing_area();
+    let root = BitMapBackend::new("kmeans.png", (1000, 1000)).into_drawing_area();
     root.fill(&WHITE).unwrap();
 
-    let x_lim = 230000.0..242000.0f32;
-    let y_lim = 880000.0..910000.0f32;
+    let x_lim = 215000.0..250000.0f32;
+    let y_lim = 880000.0..915000.0f32;
 
     let mut ctx = ChartBuilder::on(&root)
     .set_label_area_size(LabelAreaPosition::Left, 40) // Put in some margins
@@ -118,31 +118,31 @@ fn main() {
     0 => Circle::new(
     (coordinates[0], coordinates[1]),
     3,
-    ShapeStyle::from(&RED).filled(),
+    ShapeStyle::from(&RGBColor(0, 153, 153)).filled(),
     ),
 
     1 => Circle::new(
     (coordinates[0], coordinates[1]),
     3,
-    ShapeStyle::from(&GREEN).filled(),
+    ShapeStyle::from(&RGBColor(153, 0, 153)).filled(),
     ),
 
     2 => Circle::new(
     (coordinates[0], coordinates[1]),
     3,
-    ShapeStyle::from(&BLUE).filled(),
+    ShapeStyle::from(&RGBColor(102, 204, 0)).filled(),
     ),
 
     3 => Circle::new(
     (coordinates[0], coordinates[1]),
     3,
-    ShapeStyle::from(&YELLOW).filled(),
+    ShapeStyle::from(&RGBColor(255, 51, 51)).filled(),
     ),
 
     4 => Circle::new(
     (coordinates[0], coordinates[1]),
     3,
-    ShapeStyle::from(&RGBColor(255, 69, 0)).filled(),
+    ShapeStyle::from(&RGBColor(210, 180, 0)).filled(),
     ),
 
     // Making sure our pattern-matching is exhaustive
