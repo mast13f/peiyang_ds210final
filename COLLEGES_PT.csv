@@ -1,71 +1,15 @@
 X,Y,NAME
-313075.812700003,827487.625500001,Cape Cod Electrical School
-296838.814199999,827550.896,Cape Cod Community College
-228490.714199997,827680.440900002,Rob Roy Academy
-231243.324199997,827802.640900001,Diman Regional Technical Institute Division of Continuing Education
-231624.4142,830191.942600001,Bristol Community College
-273053.304200001,832650.1809,Massachusetts Maritime Academy
-276629.684199996,833190.320900001,Upper Cape Cod Regional Vocational Technical School Practical Nursing Program
-214536.9208,837972.471900001,Motoring Technical Training Institute
-237208.609800003,846063.364100002,Bristol Community College
-248771.763300002,849277.516,Massasoit Community College
-233857.107199997,850258.113400001,Rob Roy Academy
-218764.9362,855296.0977,Bristol Community College
-265952.881399997,856763.1657,Spa Tech Institute
-226173.174199998,857350.807399999,Wheaton College
-243544.754699998,859815.654,Bridgewater State University
-234636.064199999,862276.3409,Southeastern Technical Institute
-164434.985,865870.346799999,Nichols College
-234713.072800003,867710.419599999,Stonehill College
-110324.174199998,867761.640900001,Bay Path University
-237727.054200001,869068.420899998,Ailano School of Cosmetology
-242177.854099996,869597.6974,Massasoit Community College
-208448.991700001,870587.1818,Dean College
-108732.176700003,875174.436799999,Baystate Medical Center Midwifery Education Program
-162221.775200002,876040.648,Bay Path Adult Evening School
-92893.8134,876596.3869,Westfield State University
-113734.9542,877249.030900002,Branford Hall Career Institute
-109043.6756,877393.354600001,College of Our Lady of the Elms
-115147.377,877867.769400001,Branford Hall Career Institute
-106575.1087,877947.025199998,DiGrigoli School of Cosmetology
-123143.608,878222.168,Monarch School of Cosmetology
-240787.795599997,878343.7498,Mafy's Nails Academy
-118975.113300003,879061.239100002,Jolie Hair and Beauty Academy
-242081.014200002,870917.080899999,Brockton Hospital School of Nursing
-206494.701099999,871625.006299999,Tri County Regional Vocational Technical High School Adult Education
-112601.2267,872959.261799999,Springfield College
-109684.416199997,873022.741799999,Cambridge College
-109716.150899999,873182.148200002,Mansfield Beauty Schools
-110804.792800002,873717.9826,Springfield Technical Community College
-112454.8094,874127.095100001,American International College
-115595.665899999,874470.126600001,Western New England University
-112815.290600002,874750.161,American International College
-322250.285300002,783925.5121,University of Massachusetts Nantucket Field Station
-274076.644199997,812850.310899999,National Graduate School of Quality Systems Mgmt
-249167.695799999,816268.286800001,University of Massachusetts Dartmouth School for Marine Science and Technology
-241202.324199997,820084.6479,University of Massachusetts Dartmouth
-247823.691600002,820575.301899999,Bristol Community College
-300843.190800004,823015.1074,Cape Cod Community College
-242636.292,823585.6316,University of Massachusetts School of Law
-247868.108599998,824790.5077,Rob Roy Academy
-231024.403,825636.0493,University of Massachusetts Dartmouth Center for Innovation and Entrepreneurship
 239308.942,884212.699900001,Toni & Guy Hairdressing Academy
 224577.545,884401.435899999,Universal Technical Institute of Massachusetts Inc
-107705.112800002,884559.576900002,Bard College - Holyoke Microcollege
-44747.9619000033,885965.765900001,Bard College at Simon's Rock
 238575.274700001,886440.424899999,University of Phoenix-Boston
-174556.008,887499.475699998,College of the Holy Cross
 231797.909199998,887890.932100002,Curry College
-205279.275799997,887961.666,Massachusetts Bay Community College
 241002.941600002,888387.375100002,Mansfield Beauty Schools
-185391.4542,888431.8409,Tufts University
 241131.8561,888644.859299999,Massachusetts School of Barbering
 229491.564199999,897896.5909,Newbury College
 231305.202299997,898145.178800002,Boston Career Institute
 227298.584399998,898333.067400001,Boston College
 232721.399400003,898388.439100001,Harvard University
 232625.444200002,898417.510899998,Harvard University
-104652.247299999,898510.7302,Smith Adult Community Education
 235234.0361,898512.845699999,Boston University School of Medicine
 232871.654200003,898542.2709,Massachusetts College of Pharmacy and Health Science
 233065.724200003,898554.920899998,Massachusetts College of Art and Design
@@ -79,61 +23,32 @@ X,Y,NAME
 234082.444200002,899023.070900001,New England Conservatory of Music
 232762.044200003,899036.210900001,Emmanuel College
 241061.202699997,888797.4023,Ali May Academy
-173269.346900001,889032.370099999,Clark University
 240971.756200001,889230.843199998,Quincy College
-175334.607299998,889261.598,JK Nails Academy
 232176.5242,889334.6609,Boston Baptist College
 225130.724200003,889674.2009,Northeastern University
-111242.353399999,890133.105099998,Mount Holyoke College
 236444.529700004,890136.110399999,Laboure College
-174616.614200003,890397.760899998,Rob Roy Academy
-175197.292,890432.2082,New England School of Acupuncture at MCPHS
-175209.443400003,890475.932700001,Massachusetts College of Pharmacy and Health Science
-171768.1281,890967.560400002,Worcester State University
-177047.234200001,890988.4309,Bancroft School of Massage Therapy
-174257.8442,891016.990899999,Becker College
 240339.412699997,891306.8365,Eastern Nazarene College
-174457.689199999,891527.193,Worcester Polytechnic Institute
-178408.154200003,891937.210900001,University of Massachusetts Worcester Medical Center
-104365.475,892232.442600001,Conway School of Landscape Design Urban Campus
-174581.136600003,892745.751600001,Toni & Guy Hairdressing Academy
-188804.930200003,892859.0902,Spa Tech Institute
-207086.87,893523.567699999,Massachusetts Bay Community College
 216014.994199999,893687.350900002,Wellesley College
 219465.9692,893690.018399999,Franklin W. Olin College of Engineering
-172870.670299999,893796.261799999,Assumption College
 224467.710199997,893883.586199999,William James College
-206418.884199999,894150.310899999,Empire Beauty School
-205270.9617,894171.497099999,Framingham State University
 219279.526100002,894189.506,Babson College
 236561.239200003,895186.4318,Jupiter Beauty Academy
 219485.394199997,895750.100900002,Massachusetts Bay Community College
-175686.314199999,895962.150899999,Quinsigamond Community College
 237942.845,896082.866,University of Massachusetts Boston
 230562.754199997,896349.320900001,Hellenic College/Holy Cross
-175286.930600002,896425.408,Porter And Chester Institute of Worcester
 228310.619800001,896760.104899999,Pine Manor College
-106410.348300003,897107.516899999,Smith College
 225678.254199997,897165.560899999,Andover Newton Theological School
 225616.590800002,897289.7326,Hebrew College
 234391.798100002,897545.977600001,Gordon-Conwell Theological Seminary
 233336.217699997,897718.092099998,Roxbury Community College
-114983.886600003,897768.4252,Hampshire College
-165472.6602,897866.692699999,Anna Maria College
-190377.8948,879167.535100002,Blackstone Valley Vocational Regional School Post-Secondary Nursing Program
-115099.706200004,879508.139400002,Salter College
-235282.908699997,879610.713500001,Porter And Chester Institute of Canton
 231869.672499999,881082.7566,Bay State School of Technology
 225466.580499999,881218.7766,Fine Mortuary College
 225357.005599998,881237.5669,Martin Electrical School
 232702.464199997,881375.030900002,Blue Hills Regional Technical School Practical Nursing Program
 232988.300499998,881543.101,Massasoit Community College
-112265.675899997,882431.1807,Porter And Chester Institute of Chicopee
 228549.448299997,883168.099399999,Peterson School
-104869.103100002,883360.060699999,Holyoke Community College
 235292.075300001,903899.377300002,Springfield College School of Professional and Continuing Studies
 223041.977200001,904292.363699999,Bentley University
-115464.934199996,904448.5909,University of Massachusetts Amherst
 234384.394199997,904589.810899999,Lincoln Technical Institute
 231416.401900001,906514.072700001,Tufts University
 236668.854800001,906346.1219,Flavia Leal Beauty Creator's Academy
@@ -146,8 +61,6 @@ X,Y,NAME
 235516.804799996,908806.203499999,New England Hair Academy
 217273.604199998,912350.570900001,National Aviation Academy New England Campus
 245720.953,912392.030200001,North Shore Community College
-55516.989399999,912465.049,Mildred Elley-Pittsfield
-50710.7441999987,913724.420899998,Berkshire Community College
 225433.969499998,914295.8871,Northeastern University
 228725.356200002,914341.336199999,Peterson School
 231712.348399997,914572.9419,Gould Construction Institute
@@ -166,9 +79,7 @@ X,Y,NAME
 236057.1316,900054.524799999,Tufts University
 215608.725599997,900100.778200001,Regis College
 234914.030900002,900104.100900002,American Academy of Personal Training
-176257.627300002,900117.994800001,Peterson School
 235724.59,900127.8926,New England Law Boston
-176279.997,900188.183,Salter College
 234853.124200001,900230.260899998,Bay State College
 234042.970899999,900232.6666,New England College of Optometry
 235816.684199996,900253.310899999,Emerson College
@@ -184,12 +95,10 @@ X,Y,NAME
 219763.943300001,901723.6873,Brandeis University
 231072.254799999,901833.8924,Harvard University
 222158.072800003,901877.662599999,NV My Hair Academy
-194497.501599997,901927.844300002,Assabet After Dark
 232043.874200001,902111.600900002,Cambridge College
 235237.332199998,902170.251600001,Cambridge College School of Management and Education
 235359.968400002,902255.557599999,Hult International Business School
 231132.1017,902344.898200002,Harvard University
-116086.43,902604.770100001,Amherst College
 236739.374200001,902811.9109,MGH Institute of Health Professions
 231210.581699997,902878.373399999,Harvard College
 231794.304200001,902886.790899999,Harvard University
@@ -199,39 +108,5 @@ X,Y,NAME
 231516.828699999,903379.1296,Lesley University
 239081.250799999,903416.787599999,East Boston Beauty Academy
 230634.224200003,903514.900899999,Harvard-Smithsonian
-223159.2742,921938.990899999,Shawsheen Valley Regional Vocational Technical School Adult Education
-251239.383400001,922369.2991,Montserrat College of Art
-253929.425300002,922741.507399999,Endicott College
-170371.124200001,923409.820900001,Montachusett Regional Vocational Technical School Practical Nursing Program
-241457.195299998,925423.681899998,North Shore Community College
-177902.563,926387.470199998,Alexander Academy
-176325.012699999,926669.734299999,Fitchburg State University
-243607.614200003,926747.2709,North Shore Community College
-255691.63,926880.297899999,Gordon College
-160282.044200003,927083.390900001,Mount Wachusett Community College
-222910.986400001,927471.929099999,"Electrology Institute of New England, Inc"
-107177.297700003,928280.747400001,Greenfield Community College
-253737.364200003,929304.892299999,Gordon-Conwell Theological Seminary
-215733.0942,932577.130899999,Lowell Academy Hairstyling Institute
-215860.100900002,932686.9626,Middlesex Community College
-209360.820900001,933716.456300002,Greater Lowell Technical School Adult Education
-214353.928400002,933813.537300002,University of Massachusetts Lowell
-206253.641400002,933834.299800001,Page School of Electrical Technology
-229546.021200001,934065.0359,David Nicholas International
-230796.080799997,935420.122699998,Merrimack College
-68774.9993999973,936087.722399998,Charles H Mccann Technical School Adult Education
-224618.854199998,936877.9109,Massachusetts School of Law
-253324.5198,937758.438,Spa Tech Institute
-227044.155199997,938920.783500001,VIP Beauty Academy
-68608.0451999977,939125.6096,Massachusetts College of Liberal Arts
-229183.6686,939283.205400001,Northern Essex Community College
-229234.127300002,939304.157600001,Cambridge College
-227244.758599997,939687.5013,Northern Essex Community College
-226475.641199999,940528.347399998,Lawrence Training School
-60504.3351999968,941633.828499999,Williams College
-231412.971600004,942351.056899998,New England Tractor Trailer Training School of Massachusetts
-234436.510600001,946139.1065,Northpoint Bible College
-237029.944200002,949638.277899999,Northern Essex Community College
-166685.793,888707.459100001,Becker College
 228315.144500002,914684.2152,Blessing Channels Nail Academy
 230826.562799998,914876.647399999,Woburn Electrical School
