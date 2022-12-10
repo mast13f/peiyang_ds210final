@@ -11,3 +11,7 @@ serde = { version = "1", features = ["derive"] }
 color-eyre = "0.6"
 ndarray = "0.15.6"
 ndarray-csv = "0.5.1"
+linfa = "0.6.1"
+linfa-clustering = "0.6.1"
+rand = "0.8.5"
+plotters = "0.3.4"
