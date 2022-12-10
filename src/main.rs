@@ -90,7 +90,7 @@ fn main() {
 
 
 
-    let root = BitMapBackend::new("../src/kmeans.png", (600, 400)).into_drawing_area();
+    let root = BitMapBackend::new("kmeans.png", (600, 400)).into_drawing_area();
     root.fill(&WHITE).unwrap();
 
     let x_lim = 230000.0..242000.0f32;
