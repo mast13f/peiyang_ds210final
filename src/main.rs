@@ -76,9 +76,36 @@ fn main() {
     let data_c_arr = vec_to_arr(data_c);
 
     let dataset_c = kmean_cluster(data_c_arr,100);
-    draw("Colleges.png","Colleges K-Mean Cluster",dataset_c)
+    draw("Colleges.png","Colleges K-Mean Cluster",dataset_c);
 
 
+
+    // data for bus stops
+    if let Err(e) = read_csv_file("./MBTABUSSTOPS_PT.csv"){
+        eprintln!("{}", e);
+    }else {
+        let _result_b = read_csv_file("./MBTABUSSTOPS_PT.csv");
+    }
+    let result_b = read_csv_file("./MBTABUSSTOPS_PT.csv");
+    let data_b  = result_b.unwrap();
+    let data_b_arr = vec_to_arr(data_b);
+
+    let dataset_b = kmean_cluster(data_b_arr,100);
+    draw("bus.png","Boston Bus K-Mean Cluster",dataset_b);
+
+
+    // data for  k12
+    if let Err(e) = read_csv_file("./SCHOOLS_PT.csv"){
+        eprintln!("{}", e);
+    }else {
+        let _result_k = read_csv_file("./SCHOOLS_PT.csv");
+    }
+    let result_k = read_csv_file("./SCHOOLS_PT.csv");
+    let data_k  = result_k.unwrap();
+    let data_k_arr = vec_to_arr(data_k);
+
+    let dataset_k = kmean_cluster(data_k_arr,100);
+    draw("k12.png","Boston K12 Education K-Mean Cluster",dataset_k);
 
 
 

@@ -50,8 +50,8 @@ pub fn draw(pngname: &str, title:&str, data:DatasetBase<ArrayBase<OwnedRepr<f32>
     let root = BitMapBackend::new(pngname, (1000, 1000)).into_drawing_area();
     root.fill(&WHITE).unwrap();
 
-    let x_lim = 215000.0..250000.0f32;
-    let y_lim = 880000.0..915000.0f32;
+    let x_lim = 210000.0..260000.0f32;
+    let y_lim = 870000.0..930000.0f32;
 
     let mut ctx = ChartBuilder::on(&root)
     .set_label_area_size(LabelAreaPosition::Left, 40) // Put in some margins
