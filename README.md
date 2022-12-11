@@ -13,8 +13,9 @@ This project tries to redistrict the Greater Boston area using K-Mean clustering
 - ```SCHOOLS_PT.csv```: X-coordinates, Y-coordinates, and names of all K12 educational facilities in the Greater Boston area
 
   *Notes:*   
-  *- All data is retrieved from [MassGIS](https://www.mass.gov/info-details/massgis-data-layers), a Massachusetts state government geodata site*    
-  *- The source file format is shapefile(.shp) and layer file(.lyr), using [MyGeodata](https://mygeodata.cloud/converter/shp-to-csv) to transfer to the (.csv) file we want.*
+  *- All data is retrieved from [MassGIS](https://www.mass.gov/info-details/massgis-data-layers), a Massachusetts state government geodata site.*    
+  *- The source file format is shapefile(.shp) and layer file(.lyr), using [MyGeodata](https://mygeodata.cloud/converter/shp-to-csv) to transfer to the (.csv) file we want.*   
+  *- The data is filtered using Numbers to keep the data in the scope of Boston area only.*
 
 ### Methodology
 Based on [Rust Machine Learning Book](https://rust-ml.github.io/book/3_kmeans.html), this project first convert csv files to ```Vec<(f32,f32)>``` variables consisting of tuples, and then covert to ```Array2<f32>``` variables in order to perform K-Mean cluster using ```linfa-clustering```, and visualize the result using ```plotters```. 
