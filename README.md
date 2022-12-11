@@ -37,6 +37,11 @@ SCHOOLS_PT: K-12 Institutions
 
 
 ### Conclusion
+- Since the number of clusters was set to 5, all of these data were provided with five partitions.
+- Interestingly, almost every dataset is divided into five partitions: center (Boston and Cambridge), top left (Somerville, Medford, etc.), bottom left (Brookline, Newton, Chestnut Hill, etc.), top right (Revere, Winthrop, etc.), and bottom right (Milton, Quincy, etc.), and all of them are missing data on the positive right side since this part is Boston Harbor.
+- The dataset shows a dispersion, with the central subgroup having more public transportation facilities and educational institutions than the other subgroups.
+- This matches my real-life geographic perception of Boston.
+
 ### References
 Rust Machine Learning Book: https://rust-ml.github.io/book/3_kmeans.html     
 Rust Cookbook: https://rust-lang-nursery.github.io/rust-cookbook/encoding/csv.html
