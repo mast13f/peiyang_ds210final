@@ -1,4 +1,4 @@
-## K-Mean Redistricting Greater Boston Area MassGIS Data
+## Use K-Mean to Redistrict the Greater Boston Area with MassGIS Data
 DS210 Final Project   
 Peiyang Liu
 
