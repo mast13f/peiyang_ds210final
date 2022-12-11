@@ -2,20 +2,16 @@ use csv;
 use ndarray::{Array2, OwnedRepr};
 use std::error::Error;
 use serde::Deserialize;
-
-
-// Import the linfa prelude and KMeans algorithm
 use linfa::prelude::*;
 use linfa_clustering::KMeans;
-// We'll build our dataset on our own using ndarray and rand
 use ndarray::prelude::*;
 use rand::prelude::*;
-// Import the plotters crate to create the scatter plot
 use plotters::prelude::*;
 
 
 pub fn vec_to_arr(vector: Vec<(f32,f32)>) -> Array2<f32>{
     // transfer vectors to 2d array in order to conduct k mean
+
     let mut result = Array2::<f32>::zeros((vector.len(), 2));
     for i in 0..vector.len(){
         for u in 0..2{
@@ -30,6 +26,7 @@ pub fn vec_to_arr(vector: Vec<(f32,f32)>) -> Array2<f32>{
 }
 
 pub fn kmean_cluster(input_data: Array2<f32>, n_iter:usize ) -> DatasetBase<ArrayBase<OwnedRepr<f32>, Ix2>, Array1<usize>> {
+    // kmean clustering, modified from Rust Machine Learning Book
 
     let dataset = DatasetBase::from(input_data);
     let rng = thread_rng(); // Random number generator
@@ -47,6 +44,8 @@ pub fn kmean_cluster(input_data: Array2<f32>, n_iter:usize ) -> DatasetBase<Arra
 }
 
 pub fn draw(pngname: &str, title:&str, data:DatasetBase<ArrayBase<OwnedRepr<f32>, Ix2>, Array1<usize>>){
+    // Visualization, modified from Rust Machine Learning Book
+
     let root = BitMapBackend::new(pngname, (1000, 1000)).into_drawing_area();
     root.fill(&WHITE).unwrap();
 

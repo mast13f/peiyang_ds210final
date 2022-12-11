@@ -1,18 +1,19 @@
-//https://rust-ml.github.io/book/3_kmeans.html
-//https://rust-lang-nursery.github.io/rust-cookbook/encoding/csv.html
-//
+// DS210 Project
+// Peiyang Liu
+// nickpliu@bu.edu
+
+// Reference:
+// https://rust-ml.github.io/book/3_kmeans.html
+// https://rust-lang-nursery.github.io/rust-cookbook/encoding/csv.html
+
 
 mod some_func;
-// use crate::some_func::kmean_cluster;
-// use crate::some_func::draw;
-// use crate::some_func::vec_to_arr;
 use crate::some_func::*;
 
 use csv;
 use ndarray::{Array2, OwnedRepr};
 use std::error::Error;
 use serde::Deserialize;
-
 
 // // We'll build our dataset on our own using ndarray and rand
 use ndarray::prelude::*;
@@ -24,7 +25,7 @@ use plotters::prelude::*;
 
 
 struct Stations {
-    //X,Y,STATION,LINE,TERMINUS,ROUTE
+    //X,Y,NAME
     X: f32,
     Y: f32,
     NAME: String,
